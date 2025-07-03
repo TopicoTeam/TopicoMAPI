@@ -1,6 +1,6 @@
 [project]
 version = "0.1"
-name = "TopicoMAPI"
+name = "topico_mapi"
 
 dependencies = [
     "pydantic==2.11.7"
