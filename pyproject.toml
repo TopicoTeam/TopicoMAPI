@@ -1,9 +1,9 @@
 [project]
 version = "0.1"
-name = "topico_mapi"
+name = "topico_api_client"
 
 dependencies = [
-    "pydantic==2.11.7",
+    "topico_api_model@git+https://github.com/TopicoTeam/topico_api_model.git",
     "requests==2.32.4"
 ]
 
