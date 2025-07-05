@@ -7,6 +7,6 @@ def register(telegram_id: int):
     return NotImplemented
 
 @Router.get("/v1/user/telegram/{id}", TopicoUser)
-def get_user_by_tg(id: int):
+def get_user_by_telegram(id: int):
     """Return TopicoUser model by it telegram id"""
     return NotImplemented
