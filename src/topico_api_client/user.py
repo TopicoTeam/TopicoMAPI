@@ -1,6 +1,6 @@
 from topico_api_model.user import TopicoUser
 
-from ..ext import Router
+from .ext import Router
 
 @Router.post("/v1/user/register", TopicoUser, 201)
 def register(telegram_id: int):
